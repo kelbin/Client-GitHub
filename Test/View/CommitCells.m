@@ -25,7 +25,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         self.author = [[UILabel alloc] init];
-        self.author.frame = CGRectMake(10, 40, 50, 15);
+        self.author.frame = CGRectMake(10, 40, 70, 15);
         self.author.font = [UIFont fontWithName:@"Arial" size:13];
         
         self.sh = [[UILabel alloc] init];
@@ -33,7 +33,7 @@
         self.sh.font = [UIFont fontWithName:@"Arial" size:14];
         
         self.commitMessage = [[UILabel alloc] init];
-        self.commitMessage.frame = CGRectMake(80, 40, 50, 15);
+        self.commitMessage.frame = CGRectMake(80, 40, 70, 15);
         self.commitMessage.font = [UIFont fontWithName:@"Arial" size:13];
         
         self.date = [[UILabel alloc] init];

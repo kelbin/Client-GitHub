@@ -25,7 +25,7 @@
     [self avatarUrl];
     [self imageForForks];
     [self imageForWatchers];
-    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.view.frame.origin.y + 320, self.view.frame.size.width, self.view.frame.size.height)];
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.view.frame.origin.y + 270, self.view.frame.size.width, self.view.frame.size.height)];
     tableView.delegate = self;
     tableView.dataSource = self;
     [tableView registerClass:[CommitCells class] forCellReuseIdentifier:@"CommitCells"];
